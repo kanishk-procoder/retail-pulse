@@ -1,0 +1,12 @@
+Feature,Mean_SHAP
+days_as_customer,1.4801831
+total_quantity,0.2621176
+avg_quantity_per_line,0.12926018
+purchase_frequency_days,0.12469959
+unique_products_bought,0.11509978
+total_orders,0.10339696
+avg_order_value,0.10021524
+total_spend,0.047436267
+weekend_purchase_ratio,0.040653687
+F_Score,0.0042273034
+M_Score,0.0

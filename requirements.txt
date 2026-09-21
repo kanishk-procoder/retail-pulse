@@ -1,0 +1,42 @@
+# Core Data Science
+pandas>=2.1.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+openpyxl>=3.1.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+missingno>=0.5.2
+
+# Time Series & Forecasting
+prophet>=1.1.5
+statsmodels>=0.14.0
+pmdarima>=2.0.4
+
+# Deep Learning
+torch>=2.1.0
+
+# Gradient Boosting
+xgboost>=2.0.0
+lightgbm>=4.1.0
+
+# Model Explainability & Tuning
+shap>=0.43.0
+optuna>=3.4.0
+imbalanced-learn>=0.11.0
+
+# Dashboard
+streamlit>=1.29.0
+
+# MLOps & Drift Monitoring
+mlflow>=2.9.0
+evidently>=0.4.0
+
+# Export & Utilities
+joblib>=1.3.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+

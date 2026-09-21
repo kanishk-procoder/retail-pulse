@@ -1,0 +1,65 @@
+[
+    {
+        "Model": "Logistic Regression",
+        "AUC_ROC": 0.7927,
+        "Accuracy": 0.7177,
+        "Precision": 0.7009,
+        "Recall": 0.7759,
+        "F1_Score": 0.7365,
+        "Precision_Top20": 0.7957
+    },
+    {
+        "Model": "Decision Tree",
+        "AUC_ROC": 0.804,
+        "Accuracy": 0.7415,
+        "Precision": 0.7241,
+        "Recall": 0.7943,
+        "F1_Score": 0.7576,
+        "Precision_Top20": 0.8
+    },
+    {
+        "Model": "Random Forest",
+        "AUC_ROC": 0.82,
+        "Accuracy": 0.744,
+        "Precision": 0.7247,
+        "Recall": 0.801,
+        "F1_Score": 0.7609,
+        "Precision_Top20": 0.8213
+    },
+    {
+        "Model": "XGBoost",
+        "AUC_ROC": 0.8172,
+        "Accuracy": 0.7423,
+        "Precision": 0.7225,
+        "Recall": 0.801,
+        "F1_Score": 0.7597,
+        "Precision_Top20": 0.834
+    },
+    {
+        "Model": "LightGBM",
+        "AUC_ROC": 0.8193,
+        "Accuracy": 0.7457,
+        "Precision": 0.7228,
+        "Recall": 0.811,
+        "F1_Score": 0.7644,
+        "Precision_Top20": 0.8255
+    },
+    {
+        "Model": "SVM",
+        "AUC_ROC": 0.7963,
+        "Accuracy": 0.7355,
+        "Precision": 0.7126,
+        "Recall": 0.8043,
+        "F1_Score": 0.7557,
+        "Precision_Top20": 0.7745
+    },
+    {
+        "Model": "MLP Neural Net",
+        "AUC_ROC": 0.8029,
+        "Accuracy": 0.7432,
+        "Precision": 0.7108,
+        "Recall": 0.8344,
+        "F1_Score": 0.7677,
+        "Precision_Top20": 0.7957
+    }
+]

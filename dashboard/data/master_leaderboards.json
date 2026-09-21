@@ -1,0 +1,156 @@
+{
+    "segmentation": [
+        {
+            "Model": "K-Means",
+            "Clusters": 5,
+            "Silhouette_Score": 0.3425,
+            "Calinski_Harabasz": 4848.23,
+            "Davies_Bouldin": 0.9497,
+            "Interpretability": "High",
+            "Selected": true
+        },
+        {
+            "Model": "DBSCAN",
+            "Clusters": 2,
+            "Silhouette_Score": 0.2785,
+            "Calinski_Harabasz": 2899.86,
+            "Davies_Bouldin": 1.004,
+            "Interpretability": "Medium",
+            "Selected": false
+        },
+        {
+            "Model": "Agglomerative",
+            "Clusters": 5,
+            "Silhouette_Score": 0.2862,
+            "Calinski_Harabasz": 3884.19,
+            "Davies_Bouldin": 1.0462,
+            "Interpretability": "High",
+            "Selected": false
+        },
+        {
+            "Model": "GMM",
+            "Clusters": 5,
+            "Silhouette_Score": 0.1999,
+            "Calinski_Harabasz": 2847.41,
+            "Davies_Bouldin": 1.2674,
+            "Interpretability": "Medium",
+            "Selected": false
+        }
+    ],
+    "forecasting": [
+        {
+            "MAPE": 33.88,
+            "RMSE": 33860.6,
+            "MAE": 21520.33,
+            "R2": -0.0594,
+            "Model": "ARIMA"
+        },
+        {
+            "MAPE": 100.0,
+            "RMSE": 54913.52,
+            "MAE": 43968.36,
+            "R2": -1.7862,
+            "Model": "SARIMA"
+        },
+        {
+            "MAPE": 25.09,
+            "RMSE": 30394.71,
+            "MAE": 14718.55,
+            "R2": 0.1464,
+            "Model": "Prophet"
+        },
+        {
+            "MAPE": 21.63,
+            "RMSE": 29326.38,
+            "MAE": 12428.83,
+            "R2": 0.2053,
+            "Model": "LSTM (PyTorch)"
+        },
+        {
+            "MAPE": 23.2,
+            "RMSE": 29546.3,
+            "MAE": 12766.0,
+            "R2": 0.1934,
+            "Model": "XGBoost"
+        },
+        {
+            "MAPE": 24.35,
+            "RMSE": 28462.92,
+            "MAE": 12735.27,
+            "R2": 0.2515,
+            "Model": "Random Forest"
+        },
+        {
+            "MAPE": 24.14,
+            "RMSE": 29802.72,
+            "MAE": 13801.2,
+            "R2": 0.1793,
+            "Model": "Hybrid Ensemble"
+        }
+    ],
+    "churn": [
+        {
+            "Model": "Logistic Regression",
+            "AUC_ROC": 0.7927,
+            "Accuracy": 0.7177,
+            "Precision": 0.7009,
+            "Recall": 0.7759,
+            "F1_Score": 0.7365,
+            "Precision_Top20": 0.7957
+        },
+        {
+            "Model": "Decision Tree",
+            "AUC_ROC": 0.804,
+            "Accuracy": 0.7415,
+            "Precision": 0.7241,
+            "Recall": 0.7943,
+            "F1_Score": 0.7576,
+            "Precision_Top20": 0.8
+        },
+        {
+            "Model": "Random Forest",
+            "AUC_ROC": 0.82,
+            "Accuracy": 0.744,
+            "Precision": 0.7247,
+            "Recall": 0.801,
+            "F1_Score": 0.7609,
+            "Precision_Top20": 0.8213
+        },
+        {
+            "Model": "XGBoost",
+            "AUC_ROC": 0.8172,
+            "Accuracy": 0.7423,
+            "Precision": 0.7225,
+            "Recall": 0.801,
+            "F1_Score": 0.7597,
+            "Precision_Top20": 0.834
+        },
+        {
+            "Model": "LightGBM",
+            "AUC_ROC": 0.8193,
+            "Accuracy": 0.7457,
+            "Precision": 0.7228,
+            "Recall": 0.811,
+            "F1_Score": 0.7644,
+            "Precision_Top20": 0.8255
+        },
+        {
+            "Model": "SVM",
+            "AUC_ROC": 0.7963,
+            "Accuracy": 0.7355,
+            "Precision": 0.7126,
+            "Recall": 0.8043,
+            "F1_Score": 0.7557,
+            "Precision_Top20": 0.7745
+        },
+        {
+            "Model": "MLP Neural Net",
+            "AUC_ROC": 0.8029,
+            "Accuracy": 0.7432,
+            "Precision": 0.7108,
+            "Recall": 0.8344,
+            "F1_Score": 0.7677,
+            "Precision_Top20": 0.7957
+        }
+    ]
+}

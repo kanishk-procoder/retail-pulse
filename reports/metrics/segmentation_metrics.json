@@ -1,0 +1,38 @@
+[
+    {
+        "Model": "K-Means",
+        "Clusters": 5,
+        "Silhouette_Score": 0.3425,
+        "Calinski_Harabasz": 4848.23,
+        "Davies_Bouldin": 0.9497,
+        "Interpretability": "High",
+        "Selected": true
+    },
+    {
+        "Model": "DBSCAN",
+        "Clusters": 2,
+        "Silhouette_Score": 0.2785,
+        "Calinski_Harabasz": 2899.86,
+        "Davies_Bouldin": 1.004,
+        "Interpretability": "Medium",
+        "Selected": false
+    },
+    {
+        "Model": "Agglomerative",
+        "Clusters": 5,
+        "Silhouette_Score": 0.2862,
+        "Calinski_Harabasz": 3884.19,
+        "Davies_Bouldin": 1.0462,
+        "Interpretability": "High",
+        "Selected": false
+    },
+    {
+        "Model": "GMM",
+        "Clusters": 5,
+        "Silhouette_Score": 0.1999,
+        "Calinski_Harabasz": 2847.41,
+        "Davies_Bouldin": 1.2674,
+        "Interpretability": "Medium",
+        "Selected": false
+    }
+]

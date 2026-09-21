@@ -1,0 +1,13 @@
+{
+    "total_revenue": 17374804.25,
+    "total_customers": 5878,
+    "total_orders": 36969,
+    "total_units_sold": 10513952,
+    "average_order_value": 469.98,
+    "churn_rate_pct": 50.9,
+    "high_risk_customers": 1811,
+    "best_forecaster_mape": 21.63,
+    "critical_inventory_items": 1013,
+    "reorder_triggered_items": 376,
+    "overstocked_items": 964
+}

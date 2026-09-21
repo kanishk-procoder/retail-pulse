@@ -1,0 +1,13 @@
+[
+    "total_orders",
+    "total_quantity",
+    "avg_quantity_per_line",
+    "total_spend",
+    "avg_order_value",
+    "unique_products_bought",
+    "weekend_purchase_ratio",
+    "days_as_customer",
+    "purchase_frequency_days",
+    "F_Score",
+    "M_Score"
+]
